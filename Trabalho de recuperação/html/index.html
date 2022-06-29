@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Tabela</title>
+</head>
+
+<body>
+
+
+    <div>
+        <form id="infos-prod">
+            <img src="../img/logo-dacia-removebg-preview.png" alt="" class="img">
+            <div class="forms">
+                <div class="casd">
+                    <label for="name" class="name">Nome</label>
+                    <input type="text" id="name" name="nome" placeholder="Arroz" required>
+
+                    <label for="name" class="price">Preço</label>
+                    <input type="number" id="price" name="nome" placeholder="R$" required>
+                </div>
+
+
+                <div class="prime">
+                    <label for="name" class="namep">Prime?</label>
+                    <input type="checkbox" id="prime" name="nome" placeholder="Arroz">
+                </div>
+                <input type="hidden" name="idx" id="idx" value="novo">
+                <input type="submit" value="Salvar" class="save">
+            </div>
+
+        </form>
+        <input type="button" id="sair" value="Sair" class="exit">
+        <div id="msg-erro"></div>
+    </div>
+
+    <br><br>
+
+    <table>
+
+        <caption>
+            <h3>Lista de produtos</h3>
+        </caption>
+
+        <thead>
+            <tr class="tr">
+                <th class="th">Identificador</th>
+                <th class="th">Nome do produto</th>
+                <th class="th">Preço do produto</th>
+                <th class="th">Prime</th>
+                <th class="th">Ações</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    <script src="../js/file.js"></script>
+    <script src="https://kit.fontawesome.com/8475c39893.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

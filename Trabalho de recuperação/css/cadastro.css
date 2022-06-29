@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 0%;
+    height: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkkhaki;
+}
+
+.form {
+    background-color: antiquewhite;
+    padding: 80px;
+    width: 230px;
+    height: 174px;
+    position: absolute;
+    top: 27%;
+    left: 33%;
+    border: 1px;
+    text-align: center;
+}
+
+#loginI {
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#senhaI {
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#cadastro {
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    color: darkkhaki;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#cadastro:hover {
+    transition: 0.3s;
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: darkkhaki;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.link {
+    display: flexbox;
+    align-items: center;
+    position: relative;
+    top: 320px;
+    left: 460px;
+}
+
+.img {
+    z-index: 999;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+    width: 360px;
+    height: 200;
+}

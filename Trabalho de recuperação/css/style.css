@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+body {
+    width: 0%;
+    height: 0%;
+    margin: 0%;
+    background-color: darkkhaki;
+}
+
+#infos-prod {
+    background-color: blanchedalmond;
+}
+
+.forms {
+    z-index: 9999;
+    position: relative;
+    bottom: 150px;
+    left: 600px;
+}
+
+.casd {
+    text-align: center;
+}
+
+.name {
+    z-index: 999;
+    position: relative;
+    top: 60px;
+    right: 90px;
+}
+
+#name {
+    padding: 10px;
+    z-index: 999;
+    position: relative;
+    top: 71px;
+    right: 150px;
+    border: 1px;
+    border-radius: 15px;
+}
+
+#price {
+    padding: 10px;
+    z-index: 999;
+    position: relative;
+    top: 18px;
+    left: 100px;
+    border: 1px;
+    border-radius: 15px;
+}
+
+.price {
+    z-index: 999;
+    position: relative;
+    top: 5px;
+    left: 160px;
+}
+
+.prime {
+    z-index: 9999;
+    position: relative;
+    bottom: 80px;
+    left: 650px;
+}
+
+#prime {
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.namep {
+    font-size: 17px;
+}
+
+.save {
+    z-index: 9999;
+    position: relative;
+    left: 650px;
+    border: 1px;
+    border-radius: 15px;
+    color: green;
+    background-color: bisque;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.save:hover {
+    transition: 0.3s;
+    color: bisque;
+    background-color: green;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+table {
+    z-index: 99999;
+    position: relative;
+    left: 450px;
+    bottom: 150px;
+    background-color: green;
+}
+
+.tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    background-color: beige;
+}
+
+.td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    background-color: azure;
+}
+
+.fa-solid {
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.exit {
+    z-index: 9999;
+    position: relative;
+    top: 280px;
+    left: 10px;
+    border: 1px;
+    border-radius: 15px;
+    color: green;
+    background-color: bisque;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.exit:hover {
+    transition: 0.3s;
+    color: bisque;
+    background-color: green;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.img {
+    z-index: 999;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+    width: 360px;
+    height: 200;
+}
